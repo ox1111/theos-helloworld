@@ -4,6 +4,8 @@ theos helloworld출력해보기
 
 ## theos 설치하기
 
+- macbook에서 실행
+  
 ```
 brew install dpkg ldid
 git clone --recursive https://github.com/theos/theos.git ~/theos
@@ -35,6 +37,7 @@ HelloWorld/
 
 ## 컴파일 및 실행 순서
 
+- macbook에서 실행
 - make
 
 ```
@@ -55,7 +58,7 @@ hacker@blackfalconui-MacBookAir helloworld2 % make
 hacker@blackfalconui-MacBookAir helloworld2 % 
 
 ```
-
+- macbook에서 실행
 - make mac
 
 ```
@@ -65,6 +68,7 @@ clang -framework Foundation -o HelloWorld main.m
 2024-06-07 09:27:21.078 HelloWorld[23905:493472] Hello World from MacOS
 ```
 
+- macbook에서 실행
 -  make package
 
 ```
@@ -96,6 +100,8 @@ hacker@blackfalconui-MacBookAir helloworld2 %
 
 - upload
 
+- macbook에서 실행
+  
 ```
 iproxy 1115 22
 scp -P 1115 co.kr.blackfalcon.helloworld_0.0.1-1-4+debug_iphoneos-arm.deb  root@localhost:/tmp    
@@ -108,23 +114,25 @@ scp -P 1115 co.kr.blackfalcon.helloworld_0.0.1-1-4+debug_iphoneos-arm.deb  root@
 ssh -p 1115 root@localhost
 ```
 
-
+- ios에서 실행
 - dpkg
 ```
 dpkg -i co.kr.blackfalcon.helloworld_0.0.1-1-4+debug_iphoneos-arm.deb  
 ```
 
-
+- ios에서 실행
+- 
 ```
  touch  /var/mobile/HelloWorld.log
 ```
 
-
+- ios에서 실행
+  
 ```
 killall -9 SpringBoard
 ```
 
-
+- ios에서 실행
 - cat /var/mobile/HelloWorld.log
 
 ```
