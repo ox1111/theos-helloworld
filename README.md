@@ -97,6 +97,7 @@ hacker@blackfalconui-MacBookAir helloworld2 %
 - upload
 
 ```
+iproxy 1115 22
 scp -P 1115 co.kr.blackfalcon.helloworld_0.0.1-1-4+debug_iphoneos-arm.deb  root@localhost:/tmp    
 ```
 
