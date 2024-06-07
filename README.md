@@ -108,7 +108,7 @@ scp -P 1115 co.kr.blackfalcon.helloworld_0.0.1-1-4+debug_iphoneos-arm.deb  root@
 ```
 
 
-- ios에서 실행
+- macbook에서 실행
 
 ```
 ssh -p 1115 root@localhost
