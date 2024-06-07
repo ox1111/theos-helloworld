@@ -4,7 +4,7 @@ Depends: mobilesubstrate
 Version: 0.0.1-1
 Architecture: iphoneos-arm
 Description: A simple HelloWorld tweak
-Maintainer: Your Name <your.email@example.com>
-Author: Your Name <your.email@example.com>
+Maintainer: SpeeDr00t <speedroot@blackfalcon.co.kr>
+Author: SpeeDr00t <speedroot@blackfalcon.co.kr>
 Section: Tweaks
 
